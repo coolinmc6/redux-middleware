@@ -14,7 +14,6 @@ import { fetchWeather } from '../actions/index';
 	}
 
 	onInputChange(event) {
-		console.log(event.target.value);
 		this.setState({ term: event.target.value })
 	}
 
